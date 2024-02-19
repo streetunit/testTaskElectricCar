@@ -1,0 +1,18 @@
+init-properties:
+  field:
+    width: 5
+    height: 5
+  car-startposition:
+    positionX: 0
+    positionY: 0
+    direction: WEST
+commands:
+  left: turn left
+  right: turn right
+  move: move
+  left-sidestep: drive to the left
+  turn-180degrees: turn 180
+parser-conf:
+  default-filepath: src/test/resources/textCommands.txt
+  use-separator: true
+  separator: ;
